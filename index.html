@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shojumaru|Ubuntu" rel="stylesheet">
+
+    <title>Jurassic Park</title>
+
+  </head>
+  <body>
+<div class="container">
+    <div id="header">
+        <div class="header">
+            <h1>Welcome to Jurassic Park</h1>
+            <hr/>
+            <p>You have 60 seconds to guess 10 questions.</p>
+            <br/>
+            <p>Click To Start</p>
+            <button type="button" id="start-btn" class="btn btn-primary black-background white">CLEVER GIRL</button>
+        </div>
+    </div>
+
+    <div id="answerCounter">
+        <div class="header2">
+            <h2>You did it. You crazy son of a bitch you did it.</h2>
+            <hr/>
+            <p id="correctCounter">Correct Answers: </p>
+            <p id="wrongCounter">Wrong Answers: </p>
+        </div>
+    </div>
+
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr/>
+            <p>Here's youre score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container" id="timer">
+        <header>Hold on to your Butts!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" class="btn btn-primary black-background white" id="submit">Submit</button>
+            
+        </div>
+
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
